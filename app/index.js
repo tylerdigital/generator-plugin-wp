@@ -20,19 +20,19 @@ module.exports = base.extend({
 
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the neat ' + chalk.red('Plugin WP') + ' generator!'
+      'Welcome to the ' + chalk.red('Tyler Digital') + ' wp plugin generator!'
     ));
 
     var prompts = [{
       type   : 'input',
       name   : 'name',
       message: 'Name',
-      default: 'WDS Client Plugin Name'
+      default: 'TylerDigital Plugin Name'
     }, {
       type   : 'input',
       name   : 'homepage',
       message: 'Homepage',
-      default: 'http://webdevstudios.com'
+      default: 'http://tylerdigital.com/'
     }, {
       type   : 'input',
       name   : 'description',
@@ -42,30 +42,30 @@ module.exports = base.extend({
       type   : 'input',
       name   : 'version',
       message: 'Version',
-      default: '0.0.0'
+      default: '1.0.0'
     }, {
       type   : 'input',
       name   : 'author',
       message: 'Author',
-      default: 'WebDevStudios',
+      default: 'Nile Suan',
       save   : true
     }, {
       type   : 'input',
       name   : 'authoremail',
       message: 'Author Email',
-      default: 'contact@webdevstudios.com',
+      default: 'nilesuan@gmail.com',
       save   : true
     }, {
       type   : 'input',
       name   : 'authorurl',
       message: 'Author URL',
-      default: 'http://webdevstudios.com',
+      default: 'http://www.nilesuan.com',
       save   : true
     }, {
       type   : 'input',
       name   : 'license',
       message: 'License',
-      default: 'GPLv2'
+      default: 'Proprietary'
     }, {
       type   : 'input',
       name   : 'slug',
